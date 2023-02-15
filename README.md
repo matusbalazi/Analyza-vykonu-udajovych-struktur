@@ -1,0 +1,1 @@
+# Analyza-vykonu-udajovych-struktur
