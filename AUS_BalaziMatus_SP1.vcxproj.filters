@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="structures">
+      <UniqueIdentifier>{341fa4a8-448c-4512-8da2-c2f840c400d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structures\vector">
+      <UniqueIdentifier>{18e9d0bb-a26f-4da8-baf7-c2735de469e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structures\array">
+      <UniqueIdentifier>{101eef68-9f5d-4dde-9f6b-ad564802601b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structures\list">
+      <UniqueIdentifier>{13e1acc2-3fcf-405e-9da8-42bf787617e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structures\matrix">
+      <UniqueIdentifier>{ab121c46-3658-4c09-baf6-2a129040b2b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structures\priority_queue">
+      <UniqueIdentifier>{7b7ec7c2-9724-4ca1-9ec5-fcc9682e9154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structures\set">
+      <UniqueIdentifier>{6d20187d-ee55-48d5-be2b-9c512f933c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{0cc6a8c0-7d12-43e2-bcd8-ca659247bdf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structures\table">
+      <UniqueIdentifier>{6c865732-3b0a-4430-a3b0-e03b1608d091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structures\tree">
+      <UniqueIdentifier>{e567af9c-a9ce-4f98-8c8c-21ac296b9a86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\vector\vector.cpp">
+      <Filter>structures\vector</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\ds_routines.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\ds_structure_factory.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\memory_routines.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\structure.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\ListTests.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\MatrixTests.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\PriorityQueueTests.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Output.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMeasurement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\BitSetTests.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\TableTests.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="structures\vector\vector.h">
+      <Filter>structures\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\array\array.h">
+      <Filter>structures\array</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\list\array_list.h">
+      <Filter>structures\list</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\list\linked_list.h">
+      <Filter>structures\list</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\list\list.h">
+      <Filter>structures\list</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\priority_queue\heap.h">
+      <Filter>structures\priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\priority_queue\priority_queue.h">
+      <Filter>structures\priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\priority_queue\priority_queue_limited_sorted_array_list.h">
+      <Filter>structures\priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\priority_queue\priority_queue_linked_list.h">
+      <Filter>structures\priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\priority_queue\priority_queue_list.h">
+      <Filter>structures\priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\priority_queue\priority_queue_sorted_array_list.h">
+      <Filter>structures\priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\priority_queue\priority_queue_two_lists.h">
+      <Filter>structures\priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\priority_queue\priority_queue_unsorted_array_list.h">
+      <Filter>structures\priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\matrix\matrix.h">
+      <Filter>structures\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\matrix\matrix_continuous.h">
+      <Filter>structures\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\matrix\matrix_discontinuous.h">
+      <Filter>structures\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\list\doubly_circular_linked_list.h">
+      <Filter>structures\list</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\ds_routines.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\ds_structure_factory.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\ds_structure_types.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\heap_monitor.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\memory_routines.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\structure.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\structure_iterator.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\set\base_set.h">
+      <Filter>structures\set</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\set\bit_set.h">
+      <Filter>structures\set</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\ListTests.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\MatrixTests.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\PriorityQueueTests.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMeasurement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\BitSetTests.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\binary_search_tree.h">
+      <Filter>structures\table</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\hash_table.h">
+      <Filter>structures\table</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\linked_table.h">
+      <Filter>structures\table</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sequence_table.h">
+      <Filter>structures\table</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sorted_sequence_table.h">
+      <Filter>structures\table</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\table.h">
+      <Filter>structures\table</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\treap.h">
+      <Filter>structures\table</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\unsorted_sequence_table.h">
+      <Filter>structures\table</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\TableTests.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\tree\binary_tree.h">
+      <Filter>structures\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\tree\k_way_tree.h">
+      <Filter>structures\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\tree\multi_way_tree.h">
+      <Filter>structures\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\tree\tree.h">
+      <Filter>structures\tree</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="aus.natvis">
+      <Filter>structures</Filter>
+    </Natvis>
+  </ItemGroup>
+</Project>
