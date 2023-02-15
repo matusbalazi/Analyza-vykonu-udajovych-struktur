@@ -1,1 +1,2 @@
-# Analyza-vykonu-udajovych-struktur
+# Analýza výkonu údajových štruktúr
+Projekt vytvorený v rámci predmetu Algoritmy a údajové štruktúry I. Jeho úlohou je optimálne implementovať údajové štruktúry a otestovať ich výkon (operácie implementované na daných štruktúrach) na veľkom množstve dát. Následne sú výkony jednotlivých štruktúr porovnané. Výsledkom sú odporúčania, ktoré štruktúry je kedy vhodné použiť a akú majú výpočtovú zložitosť pri práci s dátami.
